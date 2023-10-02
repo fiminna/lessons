@@ -1,0 +1,48 @@
+
+@import url("reset.css");
+
+* {
+	color: black;
+}
+
+h1,
+h2,
+h4{
+	color: #1571c1;
+} 
+
+.about1 p{
+	color: chartreuse;
+}
+
+.list a{
+	color: brown;
+}
+
+.aboutunderstand__container > p{
+	color: deeppink;
+}
+
+#rgb{
+	color: rgb(240, 103, 233);
+}
+
+.aboutrgb__container p{
+	color: green;
+}
+
+.aboutcmyk__container > p {
+	color: yellow;
+}
+
+div > p{
+	color: rgb(132, 12, 44);
+} 
+
+.abouttriadic__container p{
+	color: orange;
+}
+
+.aboutimportant__container p{
+	color: yellowgreen;
+}
