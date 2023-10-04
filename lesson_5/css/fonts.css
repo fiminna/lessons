@@ -1,0 +1,42 @@
+
+/* Підключення вручну */
+
+@font-face {
+	font-family: "oktaneue", sans-serif;
+	src: 
+	url("../fonts/oktaneue-blackitalic-webfont.woff2") format("woff2"),
+	url("../fonts/oktaneue-blackitalic-webfont.woff") format("woff");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "oktaneue", sans-serif;
+	src: 
+	url("..//fonts/oktaneue-ultralight-webfont.woff2") format("woff2"),
+	url("..//fonts/oktaneue-ultralight-webfont.woff") format("woff");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Witch Magic", serif;
+	src: 
+	url("../fonts/Witch\ Magic.woff2") format("woff2"),
+	url("../fonts/Witch\ Magic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Witch Magic", serif;
+	src: 
+	url("../fonts/Witch\ Magic\ Italic.woff2") format("woff2"),
+	url("../fonts/Witch\ Magic\ Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}

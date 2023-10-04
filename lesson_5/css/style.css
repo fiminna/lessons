@@ -1,0 +1,140 @@
+/* Підключення вручну */
+@import url("fonts.css"); 
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Підключення через Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Підключення через Google Fonts + plagin */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+
+.halloweentitle{
+	font-family: "Witch Magic", serif;
+	font-weight: 900;
+	line-height: 1.27;
+	font-size: 30px;
+	color: #EC9704;
+	text-shadow: 3px -1px 1px #583E26;
+	font-style: italic;
+	text-align: center;
+	text-transform:capitalize ;
+}
+
+.halloweenlist{
+	font-family: "oktaneue", sans-serif;
+	font-weight: 500;
+	line-height: 1.47;
+	font-size: 20px;
+	color:black;
+	font-style: normal;
+	text-align: left;
+	text-decoration: underline;
+	word-spacing: 3px;
+	color: #A78B71;
+	text-align: center;
+}
+
+
+.hallowentext,
+h3{
+	font-family: "Witch Magic", serif;
+	font-weight: 500;
+	line-height: 1.27;
+	font-size: 18px;
+	color: black;
+	text-align: left;
+	font-style: normal;
+	letter-spacing: 1px;
+}
+
+h3{
+	color: #9C4A1A;
+	font-family: "oktaneue", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 22px;
+	text-shadow: 3px -1px 2px #F7C815;
+}
+
+.firstchapter{
+	font-family: "oktaneue", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	text-transform:lowercase;
+	color: #583E26;
+}
+
+.secondchapter{
+	color:#9C4A1A;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.thirdchapter{
+	color: #EC9704;
+	text-decoration: line-through;
+}
+.fourthchapter{
+	color: #F7C815;
+	font-weight: 800;
+	text-shadow: 3px -1px 2px #A78B71;}
+
+.fifthchapter{
+	font-weight: 400;
+	font-style: italic;
+}
+.sixthchapter{
+background-color: #A78B71;
+color: #F7C815;
+font-weight: 900;
+}
+
+.foto{
+	text-align: center;
+}
+
+
+/* Основні стилі */
+body{
+	font-family: "Inter",sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+}
+
+.title,
+.sub-title,
+.sub-sub-title{
+	font-family: "Poppins",sans-serif;
+	font-weight: 600;
+	line-height: 1.27;
+}
+
+.title{
+	font-size: 30px;
+	color: #37393F;
+	text-transform: capitalize;
+	
+}
+.sub-title{
+	font-size: 20px;
+	color:  #6B77E5;
+}
+
+.text,
+.list{
+	line-height: 1.47;
+	font-weight: 400;
+}
+
+.sub-sub-title{
+	font-size: 40px;
+	color: #37393F;
+	font-weight: 700;
+}
+.list{
+	font-weight: 500;
+}
