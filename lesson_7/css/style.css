@@ -1,0 +1,334 @@
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* -----------page practice---------- */
+
+.box {
+	max-width: 1338px;
+	margin: 0 auto;
+	padding: 50px;
+	font-size: 0;
+	background-color: whitesmoke;
+	box-shadow: inset 0 0 15px 1px #000; 
+	margin-bottom: 20px;
+}
+
+.earrings1 {
+	margin-right: 30px; 
+	border-top: 8px solid #000;
+	border-left: 8px solid #000;
+	border-right: 8px dashed #000;
+	border-bottom: 8px dashed #000;
+	display: inline-block;
+	box-shadow: 8px 8px 3px 1px #c2bebe;
+}
+.earrings2 {
+	margin-right: 30px;
+	border-top: 8px solid #000;
+	border-left: 8px solid #000;
+	border-right: 8px dotted #000;
+	border-bottom: 8px dotted #000;
+	display: inline-block;
+	box-shadow: 8px 8px 3px 1px #c2bebe;
+	opacity: 0.3;
+}
+.earrings3 {
+	margin-right: 30px;
+	border-top: 8px solid #000;
+	border-left: 8px solid #000;
+	border-right: 8px double #000;
+	border-bottom: 8px double #000;
+	display: inline-block;
+	box-shadow: 8px 8px 3px 1px #c2bebe;
+}
+.earrings4 {
+	border-left: 8px solid #000;
+	border-right: 8px dashed #000;
+	border-bottom: 8px double #000;
+	border-top: 8px dotted #000;
+	display: inline-block;
+	box-shadow: 8px 8px 3px 1px #c2bebe;
+}
+
+.circle{
+	width:20px;
+	height:35px;
+	background-color: #000;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+	font-size: 0;
+	margin: 0 auto;
+}
+.arrow-bottom {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 35px solid #000;
+	font-size: 0;
+	margin: 0 auto;
+	border-top: 35px double #000;
+	margin-bottom: 50px;
+}
+
+/* -----------page jewelry---------- */
+
+.jewelry {
+	max-width: 1133px;
+	margin: 0 auto;
+	padding: 50px 15px;
+	font-size: 0;
+}
+.info {
+	font-family: "Cormorant Infant", serif;
+	max-width: 503px;
+	margin-right: 75px;
+	padding-top: 71px;
+	display: inline-block;
+}
+.whatwedo {
+	color: #D58417;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+	margin-bottom: 27px;
+}
+.title {
+	color: #000;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: capitalize;
+	margin-bottom: 31px;
+}
+.text {
+	color: #606060;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+.images {
+	max-width: 525px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+}
+.smallimage {
+	margin-right: 20px;
+	font-size: 0;
+	margin-top: 85px;
+} 
+
+/* ----------- page project-information---------- */
+
+.project-information-content {
+	max-width: 860px;
+	margin: 0 auto;
+	padding: 50px 15px;
+	font-family: "Inter", sans-serif;
+	color: #7D7D7D;
+	font-size: 18px;
+	line-height: 1.46; 
+}
+.title-project-information {
+	color: #37393F;
+	font-family: "Poppins",sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.27; 
+	text-transform: capitalize;
+	margin-bottom: 13px;
+}
+
+.text-project-information > * {
+font-weight: 400;
+margin-bottom: 35px;
+}
+
+ul, 
+ol {
+font-weight: 500;
+padding-left: 35px;
+}
+
+p{
+	margin-bottom: 35px;
+}
+.text-project-information li{
+	list-style: initial;
+}
+
+.text-project-information ol li{
+	list-style: decimal;
+}
+
+/* ----------- page Licencing---------- */
+
+.licencing-box {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	max-width: 1248px;
+	margin: 0 auto;
+	padding: 50px 15px;
+}
+
+.licencing-box-header {
+	max-width: 296px;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+.licencing-box-header-top{
+	color: #37393F;
+	font-weight: 500;
+	display: inline-block;
+	text-align: center;
+}
+
+.decor {
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	display: inline-block;
+	margin-right: 6px;
+	font-size: 0; 
+} 
+
+.licencing {
+	color: #37393F;
+	text-align: center;
+	font-family: "Poppins",sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.21;
+}
+
+span{
+	color: #40DDB6;
+	font-weight: 400;
+}
+.pexels,
+.unsplash {
+	margin-bottom: 8px;
+}
+
+.icons-graphics,
+.photography,
+.fonts {
+	margin-bottom: 11px; 
+}
+
+.icons-graphics-content {
+	margin-bottom: 32px;
+}
+.icons-graphics,
+.photography,
+.fonts {
+	color: #37393F;
+	font-family: "Poppins",sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+}
+
+.icons-graphics-text,
+.photography-text {
+	color: #7D7D7D;
+	font-weight: 400;
+	line-height: 1.46;
+}
+
+.unsplash-text,
+.pexels-text {
+	color: #40DDB6;
+	font-weight: 400;
+	line-height: 1.46; 
+}
+
+.phosphor-icons,
+.pexels,
+.unsplash {
+	color: #37393F;
+	font-family: "Poppins",sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.photography-content,
+.pexels-content {
+	margin-bottom: 24px;
+}
+.unsplash-content,
+.phosphor-icons{
+	margin-bottom: 100px;
+}
+
+/* ----------- page EuphoriaEcommerce--------- */
+
+.euphoria-ecommerce-box{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 50px 15px;
+}
+.euphoria-ecommerce-sub-title,
+.euphoria-ecommerce-sub-sub-title,
+.euphoria-ecommerce-sub-title-text{
+	margin-bottom: 25px;
+}
+.euphoria-ecommerce-sub-sub-title-text,
+p{
+	margin-bottom: 20px;
+}
+.euphoria-ecommerce-container {
+	max-width: 573px;
+	margin-bottom: 30px;
+}
+
+.euphoria-ecommerce-decor {
+	display: inline-block;
+	width: 6px;
+	height: 28px;
+	margin-left: -20px;
+	margin-right: 10px;
+	margin-bottom: -4px;
+	border-radius: 10px;
+	background-color: #8A33FD;
+}
+.euphoria-ecommerce-title {
+	color: #3C4242;
+	display: inline-block;
+	font-family:"Core Sans C",sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1.19;
+	letter-spacing: 0.56px;
+}
+.euphoria-ecommerce-sub-title,
+.euphoria-ecommerce-sub-sub-title,
+.see-more {
+	color: #807D7E;
+	font-family: "Core Sans C",sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+}
+.euphoria-ecommerce-sub-title-text,
+.euphoria-ecommerce-sub-sub-title-text {
+	color: #807D7E;
+	font-family: "Causten",sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+}
+.euphoria-ecommerce-sub-sub-title-text span{
+	font-weight: 700;
+	color: #807D7E;
+}
+.euphoria-ecommerce-sub-title-text span{
+	font-weight: 700;
+	color: #807D7E;
+}
