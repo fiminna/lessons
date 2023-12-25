@@ -460,14 +460,12 @@ span {
 .blue-input{
 	font-size: 22px;
 }
-.red-input:focus {
+.focuslink:focus {
 	background: yellow;
 	color: red;
 }
-.blue-input:focus {
-	background: yellow;
-	color: blue;
-}
+.focuslink:focus:active {
+	font-weight: bold; }
 .target{
 	color: green;
 	font-family: "Cormorant Infant", serif;
