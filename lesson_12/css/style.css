@@ -1,0 +1,352 @@
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #37393f;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+.title {
+	font-family: "Poppins", sans-serif;
+}
+/* =======================Header Main================================ */
+.header {
+	position: fixed;
+	width: 100%;
+	color:#40DDB6;
+	top: 0;
+	left: 0;
+	min-height: 50px;
+	z-index: 50;
+	padding: 15px 0;
+   background-color: rgba(107, 119, 229);
+}
+[class*="__container"] {
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header__menu {
+}
+.menu {
+	text-align: center;
+	font-weight: 500;
+}
+.menu__list {
+	font-size: 0;
+}
+.menu__item {
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.menu__item:not(:last-child) {
+	margin-right: 200px;
+}
+.menu__link {
+	padding: 5px 0; 
+	line-height: 1.2;
+}
+.menu__link:hover{
+	color: white;
+}
+.menu__menu-sub {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	padding: 10px;
+	min-width: 230px;
+   text-align: left;
+   border-radius: 10px;
+	font-size: 16px;
+   color: #0e1c36;
+   border: 3px solid  #40DDB6;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+}
+.sub-menu {
+	position: absolute;
+	left: -10px;
+	top:40px
+}
+.sub-menu__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+.sub-menu::before {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	width: 100%;
+	height: 10px;
+}
+.menu__item:hover .sub-menu {
+	visibility: visible;
+	opacity: 1;
+}
+.sub-menu__link:hover {
+	text-decoration: underline;
+	color: rgb(53, 68, 205);
+}
+
+.sub-menu__link {
+}
+.sub-menu__next-level,
+.sub-menu__level-next {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	padding: 10px;
+	min-width: 160px;
+   text-align: left;
+   border-radius: 10px;
+	font-size: 16px;
+   color: #0e1c36;
+   border: 3px solid  #40DDB6;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0; 
+}
+.next-level-sub-menu {
+	position: absolute;
+	left: 235px;
+	top:25px;
+}
+.next-level-sub-menu::before{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: -30px;
+	width: 100%;
+	height: 10px;
+}
+.sub-menu__item:hover .next-level-sub-menu{
+	visibility: visible;
+	opacity: 1;
+}
+.next-level-sub-menu__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+.next-level-sub-menu__link:hover {
+	text-decoration: underline;
+	color:rgb(53, 68, 205);
+}
+
+.sub-menu__level-next {
+	min-width: 170px;
+}
+.level-next-sub-menu{
+	position: absolute;
+	left: 235px;
+	top: 53px;
+}
+.level-next-sub-menu::before{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: -30px;
+	width: 100%;
+	height: 10px;
+}
+.sub-menu__item:hover .level-next-sub-menu{
+	visibility: visible;
+	opacity: 1;
+}
+.level-next-sub-menu__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+.level-next-sub-menu__link:hover{
+	text-decoration: underline;
+	color: rgb(53, 68, 205);
+}
+
+/* =======================Experts================================ */
+
+.page {
+}
+.page__experts {
+	padding: 100px 0;
+}
+.experts {
+}
+.experts__container {
+}
+.experts__cards {
+	font-size: 0;
+}
+.cards-experts__row-wrapper:not(:last-child) {
+	margin-bottom: 31px;
+}
+.cards-experts {
+}
+.cards-experts__row-wrapper {
+}
+.cards-experts__item {
+	display: inline-block;
+	max-width: 386px;
+	max-height: 532px;
+	position: relative;
+}
+.cards-experts__item:not(:last-child) {
+	margin-right: 31px;
+}
+.cards-experts__item::before {
+	content: "";
+	background-color: rgba(107, 119, 229, 0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	visibility: hidden;
+}
+.cards-experts__item:hover::before {
+	visibility: visible;
+}
+.cards-experts__image {
+	position: relative;
+	overflow: hidden;
+	width: 386px;
+	height: 532px;
+}
+.cards-experts__image img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.cards-experts__social {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	top: 244px;
+	left: 108px;
+	z-index: 4;
+}
+.cards-experts__item:hover .cards-experts__social{
+	visibility: visible;
+	opacity: 1;
+}
+.social-experts {
+}
+.social-experts__item {
+	display: inline-block;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	background-color: #40DDB6;
+	text-align: center;
+	overflow: hidden;
+}
+.social-experts__item img {
+	width: 50%;
+	height: 50%;
+	position: relative;
+	top: 25%;
+	left: 0;
+}
+.social-experts__item:hover{
+	background: rgb(212, 166, 255) linear-gradient(121deg, rgba(63,255,251,1) 31%, rgba(0,255,186,1) 60%, rgba(212,166,255,1) 91%);
+}
+.social-experts__item:not(:last-child) {
+	margin-right: 13px;
+}
+.cards-experts__body {
+	min-width: 341px;
+	padding: 24px 47px;
+	background: #fff;
+	position: absolute;
+	bottom: 22px;
+	left: 22px;
+	z-index: 3;
+	text-align: center;
+}
+.cards-experts__name {
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.52;
+	text-transform: capitalize;
+}
+.cards-experts__position {
+	color: #7d7d7d;
+	font-size: 18px;
+	line-height: 1.35;
+	text-transform: capitalize;
+}
+
+/* =======================Practice================================ */
+.page__practice {
+	padding-bottom: 150px;
+}
+.practice__container {
+}
+.practice__title {
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1.1;
+	text-align: center;
+}
+.practice__title:not(:last-child) {
+	margin-bottom: 40px;
+}
+.title {
+	
+}
+.practice__content {
+	
+}
+.practice__block1 {
+	position: sticky;
+	top: 100px;
+	left: 0;
+	border: 5px solid  #40DDB6;
+	border-radius: 20px;
+	padding: 25px;
+	background-color: #fff;
+}
+.practice__text {
+	line-height: 1.1;
+}
+.practice__block2{
+	position: sticky;
+	top:130px;
+	left: 0;
+	border: 5px solid rgba(107, 119, 229);
+	border-radius: 20px;
+	padding: 25px;
+	background-color: #fff;
+}
+.practice__block3{
+	position: sticky;
+	top: 160px;
+	left: 0;
+	border: 5px solid  #40DDB6;
+	border-radius: 20px;
+	padding: 25px;
+	background-color: #fff;
+}
+.practice__block4{
+	position: sticky;
+	top:0;
+	left: 0;
+	border: 5px solid rgba(107, 119, 229);
+	border-radius: 20px;
+	padding: 25px;
+	background-color: #fff;
+}
+.footer{
+	min-height: 120px;
+	background-color: rgba(107, 119, 229);
+}
